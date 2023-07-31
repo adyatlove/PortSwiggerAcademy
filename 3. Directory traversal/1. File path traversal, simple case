@@ -1,0 +1,10 @@
+При загрузке страницы видим обращения к графическим файлам в пути /image?filename=34.jpg
+![img](https://github.com/adyatlove/PortSwiggerAcademy/blob/main/3.%20Directory%20traversal/1.png)
+
+
+Переведем данный запрос в repeater и изменим его параметы, вызывая не 34.jpg, а ../../../etc/passwd 
+GET /image?filename=../../../etc/passwd HTTP/2
+![Image alt]https://github.com/adyatlove/PortSwiggerAcademy/blob/main/3.%20Directory%20traversal/2.png
+
+ 
+Тем самым мы использовали уязвимость directory traversal на испытуемом веб-ресурсе
