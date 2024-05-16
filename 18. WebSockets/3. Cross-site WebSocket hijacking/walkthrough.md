@@ -4,7 +4,8 @@
 
 ![img](https://github.com/adyatlove/PortSwiggerAcademy/blob/main/18.%20WebSockets/3.%20Cross-site%20WebSocket%20hijacking/pics%20for%20walkthrough/1.png)
 
-Полное взаимодействие атаки будет выглядеть следующим образом
+Полное взаимодействие атаки будет выглядеть следующим образом - 
+`https://www.youtube.com/watch?v=U_z2OCAkoLk`
 ![img](https://github.com/adyatlove/PortSwiggerAcademy/blob/main/18.%20WebSockets/3.%20Cross-site%20WebSocket%20hijacking/pics%20for%20walkthrough/3.png)
 
 Найдем в `Proxy` -> `HTTP history` `GET - запрос`, инициирующий соединение с сервером
